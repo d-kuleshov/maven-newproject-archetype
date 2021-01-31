@@ -6,6 +6,7 @@
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
+  <packaging>jar</packaging>
 
   <!-- TODO change project name or remove this comment -->
   <name>${project.artifactId} - ${project.version}</name>

@@ -6,6 +6,7 @@
   <groupId>archetype.it</groupId>
   <artifactId>basic-project</artifactId>
   <version>0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <!-- TODO change project name or remove this comment -->
   <name>${project.artifactId} - ${project.version}</name>
