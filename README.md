@@ -27,7 +27,10 @@ mvn clean install
 ### Maven
 
 ```shell
-mvn archetype:generate -DarchetypeGroupId=ru.dkuleshov -DarchetypeArtifactId=maven-newproject-archetype -DarchetypeVersion=1.0
+mvn archetype:generate \
+   -DarchetypeGroupId=ru.dkuleshov \
+   -DarchetypeArtifactId=maven-newproject-archetype \
+   -DarchetypeVersion=1.0
 ```
 
 ### IntelliJ IDEA
