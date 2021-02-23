@@ -30,7 +30,7 @@ mvn clean install
 mvn archetype:generate \
    -DarchetypeGroupId=ru.dkuleshov \
    -DarchetypeArtifactId=maven-newproject-archetype \
-   -DarchetypeVersion=1.0
+   -DarchetypeVersion=1.1
 ```
 
 ### IntelliJ IDEA
@@ -39,9 +39,9 @@ mvn archetype:generate \
 1. Select `Maven`
 1. Check `Create from archetype`
 1. Press `Add archetype...`
-   1. `GroupId`: `ru.dkuleshov`
-   1. `ArtifactId`: `maven-newproject-archetype`
-   1. `Version`: `1.0`
+    1. `GroupId`: `ru.dkuleshov`
+    1. `ArtifactId`: `maven-newproject-archetype`
+    1. `Version`: `1.1`
 1. Select new archetype in the list and press `Next` to start creating new project
 
 [1]: https://logging.apache.org/log4j/2.x/
