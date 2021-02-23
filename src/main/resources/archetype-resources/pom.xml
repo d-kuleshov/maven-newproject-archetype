@@ -190,6 +190,29 @@
             </execution>
           </executions>
         </plugin>
+        <plugin>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>3.2.1</version>
+          <executions>
+            <execution>
+              <id>copy-sources</id>
+              <phase>verify</phase>
+              <goals>
+                <goal>jar-no-fork</goal>
+              </goals>
+              <configuration>
+                <archive>
+                  <addMavenDescriptor>false</addMavenDescriptor>
+                  <manifest>
+                    <addDefaultEntries>false</addDefaultEntries>
+                  </manifest>
+                </archive>
+                <excludeResources>true</excludeResources>
+                <forceCreation>true</forceCreation>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
         <!-- skip install, site, deploy phases -->
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
@@ -225,6 +248,9 @@
       </plugin>
       <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
