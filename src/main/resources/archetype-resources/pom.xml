@@ -23,8 +23,8 @@
     <project.build.lib.dirname>lib</project.build.lib.dirname>
 
     <project.version.log4j>2.14.0</project.version.log4j>
-    <project.version.junit>5.7.0</project.version.junit>
-    <project.version.mockito>3.7.7</project.version.mockito>
+    <project.version.junit>5.7.1</project.version.junit>
+    <project.version.mockito>3.8.0</project.version.mockito>
   </properties>
 
   <dependencyManagement>
